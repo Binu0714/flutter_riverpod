@@ -10,7 +10,3 @@ class ServerFailure extends Failure {
 class NetworkFailure extends Failure {
   NetworkFailure() : super("No internet connection");
 }
-
-class CacheFailure extends Failure {
-  CacheFailure() : super("Local cache error");
-}
